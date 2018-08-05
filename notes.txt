@@ -1,0 +1,37 @@
+$ gradle tasks --all
+$ gradle tasks
+$ gradle build
+$ gradle wrapper
+$ gradlew build
+
+
+
+
+task has the following:
+1. lifecycle
+2. properties
+3. actions
+4. dependencies
+
+Gradle Phases
+
+1> Initilization Phase
+2> Configuraiton Phase (when Task Description is listed while doing gradle tasks --all)
+3> Execution Phase (when doFirst and doLast are executed)
+
+Tasks depends on other tasks
+Task1.dependsOn Task2
+Task2.dependsOn Task3
+
+
+mustRunAfter
+shouldRunAfter (ignores the circular dependencies)
+finalizedBy (incubating in 2.6)
+
+Typed Tasks (for reusability)
+---------------------------------
+Copying file
+Zipping file
+
+
+
