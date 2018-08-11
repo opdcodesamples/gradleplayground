@@ -1,0 +1,4 @@
+C:\osmand\gradleplayground\jacket\Demo\build\classes\java\main>java -cp ".;C:\osmand\gradleplayground\jacket\JacketService\build\libs\JacketService-1.0.SNAPSHOT.jar;C:\osmand\gradleplayground\jacket\Repository\build\libs\Repository-1.0.SNAPSHOT.jar" com.jacket.demo.JacketDemo
+Name of Jacket in Demo: Tommy Hilfiger
+
+C:\osmand\gradleplayground\jacket\Demo\build\classes\java\main>

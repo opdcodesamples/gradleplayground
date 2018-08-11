@@ -35,3 +35,22 @@ Zipping file
 
 
 
+$ gradle --deamon clean
+
+Multi project build
+1) settings.gradle - list all the projects that are part of this multi project build
+2) build.gradle
+
+
+Gradle and Java
+===================
+
+https://spring.io/guides/gs/gradle/
+https://spring.io/guides/gs/spring-boot/
+
+$ gradle wrapper --gradle-version 4.9
+
+running spring boot project
+=========================
+$ gradle bootRun
+
